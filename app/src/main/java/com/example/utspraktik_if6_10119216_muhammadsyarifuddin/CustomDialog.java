@@ -34,4 +34,7 @@ public class CustomDialog extends AppCompatActivity {
 
     }
 }
-
+//NIM    : 10119216
+//Nama   : Muhammad Syarifuddin Rahiman
+//Kelas  : IF-6
+//Tanggal Pengerjaan : 3-056-2022
