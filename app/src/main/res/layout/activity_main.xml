@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Pengisian Data"
+            android:textSize="20sp"
+            android:fontFamily="@font/lato"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="24sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@drawable/ic_rectangle_55">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_intersect"/>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:textColor="#424242"
+                android:text="Info"
+                android:textSize="12sp"
+                android:layout_marginStart="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginBottom="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/info"
+                android:layout_marginStart="16sp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:textColor="#757575"
+                android:text="@string/txt_info"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Jenis Tes"
+            android:textColor="#424242"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="20sp"
+            android:textColorHint="@color/green"
+            android:checked="true"
+            android:text="Rapid Antigen"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginBottom="24sp"
+            android:text="PCR"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginBottom="8sp"
+            android:fontFamily="@font/roboto"
+            android:text="Tanggal Terkonfirmasi"
+            android:textStyle="bold"
+            android:textColor="#424242"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@drawable/roundedinput">
+
+            <EditText
+                android:id="@+id/edit_tanggal"
+                android:layout_width="310sp"
+                android:layout_height="40sp"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="29sp"
+                android:backgroundTint="@color/white"
+
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/roboto"
+                android:hint="Pilih Tanggal"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12sp"
+                android:layout_toRightOf="@id/edit_tanggal"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_calendar" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="24sp"
+            android:fontFamily="@font/roboto"
+            android:text="NIK"
+            android:textStyle="bold"
+            android:textColor="#424242"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@drawable/roundedinput">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="29sp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/roboto"
+                android:hint="Masukkan NIK"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="24sp"
+            android:fontFamily="@font/roboto"
+            android:text="Nama"
+            android:textStyle="bold"
+            android:textColor="#424242"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@drawable/roundedinput">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="29sp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/roboto"
+                android:hint="Masukkan Nama"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginTop="24sp"
+            android:fontFamily="@font/roboto"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"
+            android:textColor="#424242"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@drawable/roundedinput">
+
+            <EditText
+                android:id="@+id/edit_tanggal_lahir"
+                android:layout_width="310sp"
+                android:layout_height="40sp"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="29sp"
+                android:backgroundTint="@color/white"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/roboto"
+                android:hint="Pilih Tanggal"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12sp"
+                android:layout_toRightOf="@id/edit_tanggal_lahir"
+                android:src="@drawable/ic_calendar" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Jenis Kelamin"
+            android:textColor="#424242"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="20sp"
+            android:textColorHint="@color/green"
+            android:checked="true"
+            android:text="Laki - Laki"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginBottom="24sp"
+            android:text="Perempuan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Hubungan Dengan Anda"
+            android:textColor="#424242"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="20sp"
+            android:textColorHint="@color/green"
+            android:checked="true"
+            android:text="Orang Tua"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:text="Suami/Istri"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:text="Anak"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:text="Kerabat Lainnya"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginBottom="32sp"
+            android:checked="true"
+            android:text="@string/txt_persetujuan"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_selanjutnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Selanjutnya"
+            android:background="@drawable/border"/>
+
+
+    </LinearLayout>
+</ScrollView>

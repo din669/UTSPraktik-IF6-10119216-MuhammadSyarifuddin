@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".CekData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Kembali Isian Data"
+            android:textSize="20sp"
+            android:fontFamily="@font/lato"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="24sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Jenis Tes"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="Rapid Antigen"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Tanggal Terkonfirmasi"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="8 September 2021"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="NIK"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="7323456778941234"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Nama"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="Mohammad Reksa"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Tanggal Lahir"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="2 November 1993"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Jenis Kelamin"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="Laki-laki"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginStart="16sp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Hubungan Dengan Anda"
+            android:textSize="12sp"
+            android:textColor="#424242"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="Orangtua"
+            android:textColor="#424242"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:background="@color/gray"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="67sp"
+            android:layout_marginEnd="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Cek Hasil Tes"
+            android:background="@drawable/border"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginEnd="16sp"
+            android:textColor="#757575"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Ubah"
+            android:background="@drawable/border2"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

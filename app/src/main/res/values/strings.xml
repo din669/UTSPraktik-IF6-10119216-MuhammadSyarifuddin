@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UTSPraktik-IF6-10119216-MuhammadSyarifuddin</string>
+    <string name="txt_info">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+    <string name="txt_persetujuan">Dengan ini saya menyetujui bahwa data yang saya isikan adalah benar</string>
+    <string name="title_activity_cek_data">CekData</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
